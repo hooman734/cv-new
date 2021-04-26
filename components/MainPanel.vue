@@ -1,9 +1,9 @@
 <template>
-  <div class="flex justify-center my-auto md:my-10 xl:my-20">
+  <div class="flex justify-center my-auto">
     <div class="flex-flex-col align-middle justify-center">
-      <p class="font-black text-6xl text-green-900 font-sans">Hooman Hesamyan</p>
-      <p class="font-semibold text-2xl text-green-900">Full Stack Developer</p>
-      <div class="mt-20 pt-20">
+
+
+      <div class="">
         <p class="font-bold text-gray-700 font-sans text-2xl">
           <font-awesome-icon icon="graduation-cap"/>
           Education
