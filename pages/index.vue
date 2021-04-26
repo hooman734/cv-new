@@ -9,7 +9,7 @@
       </div>
     </div>
 <!--    -->
-    <div class="flex flex-row flex-wrap justify-items-center mt-6 md:mt-20">
+    <div class="flex flex-row flex-wrap justify-items-center mt-6 md:mt-10">
       <div class="flex-initial mx-4 border-4 md:w-2/6">
         <side-panel></side-panel>
       </div>
