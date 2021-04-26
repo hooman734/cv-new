@@ -1,16 +1,16 @@
 <template>
   <div class="flex justify-center my-auto">
     <div class="flex flex-col align-middle">
-      <!--      <div class="image rounded-full h-60 w-60 flex items-center justify-center shadow-lg self-center p-6"></div>-->
-      <!--  -->
-      <div class="flex flex-col">
-        <p class="font-bold text-gray-700 font-sans text-2xl">Profile</p>
-        <p class="font-semibold">Seeking a Full-Stack Software Development position</p>
-      </div>
-      <!--  -->
       <div class="ml-5">
         <div class="flex flex-col">
-          <p class="font-bold text-gray-700 font-sans text-2xl">Personal Details</p>
+          <p class="font-bold text-gray-700 font-sans text-xl">Profile</p>
+          <div class="">
+            <p class="font-semibold mb-4 text-justify">Seeking a Full-Stack Software Development position Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias itaque minus neque nulla obcaecati, optio quia veritatis. Assumenda cupiditate incidunt laboriosam laudantium maxime obcaecati vero. Commodi eligendi nam necessitatibus quisquam!</p>
+          </div>
+
+        </div>
+        <div class="flex flex-col">
+          <p class="font-bold text-gray-700 font-sans text-xl">Personal Details</p>
           <p class="text-green-900 font-bold text-xl">
             <font-awesome-icon icon="calendar-alt"/>
             Birthdate
@@ -29,7 +29,7 @@
         </div>
 <!--        -->
         <div class="flex flex-col">
-          <p class="font-bold text-gray-700 font-sans text-2xl">Contact</p>
+          <p class="font-bold text-gray-700 font-sans text-xl">Contact</p>
           <p class="text-green-900 font-bold text-xl">
             <font-awesome-icon icon="inbox"/>
             Email
@@ -43,7 +43,7 @@
         </div>
 
         <div class="flex flex-col">
-          <p class="font-bold text-gray-700 font-sans text-2xl">Links</p>
+          <p class="font-bold text-gray-700 font-sans text-xl">Links</p>
           <p class="text-green-900 font-bold text-xl">
             <font-awesome-icon icon="link"/>
             Linkedin
@@ -97,11 +97,6 @@ export default {
 </script>
 
 <style scoped>
-.image {
-  background-image: url("../assets/hooman.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+
 
 </style>
