@@ -34,12 +34,13 @@
               <font-awesome-icon icon="inbox"/>
               Email
             </p>
-            <p class="font-light mb-4 font-mono">hesamyan@gmail.com</p>
+            <p class="font-light mb-4 font-mono">
+              <a target="_blank" href="mailto:hesamyan@gmail.com">hesamyan@gmail.com</a></p>
             <p class="text-green-900 font-bold text-xl">
               <font-awesome-icon icon="phone-square-alt"/>
               Phone
             </p>
-            <p class="font-light mb-4 font-mono">+374-77-281-774</p>
+            <p class="font-light mb-4 font-mono"><a target="_blank" href="tell:+37477281774">+374-77-281-774</a></p>
           </div>
           <div class="flex flex-col">
             <p class="font-bold text-gray-700 font-sans text-xl mt-3 md:mt-10">Links</p>

@@ -4,7 +4,9 @@
     <a target="_blank" v-bind:href="link">
       <p class="font-bold font-sans">{{topic}}</p>
       <p class="text-xs text-gray-400 mb-2.5">{{date}}</p>
-      <p class="text-justify text-sm">{{description}}</p>
+      <div class="text-justify text-sm">
+        <slot></slot>
+      </div>
     </a>
      </div>
 </div>
@@ -17,7 +19,6 @@ export default {
     topic: String,
     date: String,
     link : String,
-    description: String
   }
 }
 </script>
