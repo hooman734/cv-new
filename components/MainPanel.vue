@@ -243,7 +243,7 @@
               <font-awesome-icon icon="pen-nib"/>
               Articles
             </p>
-            <div class="flex flex-row flex-wrap justify-start content-evenly ml-2 md:ml-9">
+            <div class="flex flex-row flex-wrap justify-center md:justify-start content-evenly ml-2 md:ml-9">
               <article-cp topic="Experience With F#" link="https://hesamyan.medium.com/experience-with-f-618118e99408"
                           date="Mar 3 - 2021">
                 <div class="cursor-help">Here I am going to share my experience with F# — the functional-first,
