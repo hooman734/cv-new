@@ -71,8 +71,8 @@
           </div>
           <div class="border-l-4 pl-5 pb-4">
             <p class="text-gray-400 text-sm mb-1.5">Online</p>
-            <p class="font-semibold">Master of Science in Computer and Information Science</p>
-            <p class="font-semibold">Following are some prominent courses during my education at AUA</p>
+            <p class="">Learning F# and functional programming principals</p>
+            <p class="">Implementing back-end API using .Net and F#</p>
           </div>
           <div class="flex flex-row flex-wrap justify-between">
             <p class="text-green-900 font-bold">
@@ -245,33 +245,48 @@
             </p>
             <div class="flex flex-row flex-wrap justify-start content-evenly ml-2 md:ml-9">
               <article-cp topic="Experience With F#" link="https://hesamyan.medium.com/experience-with-f-618118e99408"
-                          date="Mar 3 - 2021">Here I am going to share my experience with F# — the functional-first,
-                general-purpose, strongly typed, multi-paradigm programming language — which I have recently started to
-                learn.
+                          date="Mar 3 - 2021">
+                <div class="cursor-help">Here I am going to share my experience with F# — the functional-first,
+                  general-purpose, strongly typed, multi-paradigm programming language — which I have recently started
+                  to
+                  learn.
+                </div>
               </article-cp>
               <article-cp topic="Setting up Dockerfile & GitHub Workflow"
                           link="https://hesamyan.medium.com/setting-up-dockerfile-github-workflow-86cafd82cf97"
-                          date="Jan 30 - 2021">Here I want to tell my experience with Docker builder and GitHub Workflow.
-                I had a React project developed using Next.js and stored in my GitHub account for a while, so it came to
-                my mind to fiddle with this repository using.
+                          date="Jan 30 - 2021">
+                <div class="cursor-help">Here I want to tell my experience with Docker builder and GitHub Workflow.
+                  I had a React project developed using Next.js and stored in my GitHub account for a while, so it came
+                  to
+                  my mind to fiddle with this repository using.
+                </div>
               </article-cp>
               <article-cp topic="Implementing four types of linked-lists"
                           link="https://hesamyan.medium.com/implementing-four-types-of-linked-lists-d812d5c39812"
-                          date="Dec 31 - 2020">I recently have developed four types of linked-lists, namely:
-                singly-linked-list—doubly-linked-list—circular-singly-linked-list—circular-doubly-linked-list.
+                          date="Dec 31 - 2020">
+                <div class="cursor-help">I recently have developed four types of linked-lists, namely:
+                  singly-linked-list—doubly-linked-list—circular-singly-linked-list—circular-doubly-linked-list.
+                </div>
               </article-cp>
               <article-cp topic="Switching from NetworkManager to systemd-networkd"
                           link="https://hesamyan.medium.com/switching-from-networkmanager-to-systemd-networkd-dcbda0b15056"
-                          date="Dec 24 - 2020">As the letter ‘d’ in the name of “systemd-networkd” infers for “daemon”
-                mode, this service is meant to manage all network stuff in the background rather than “NetworkManager” is
-                for setting network graphically up with the help of its GUI.
+                          date="Dec 24 - 2020">
+                <div class="cursor-help">As the letter ‘d’ in the name of “systemd-networkd” infers for “daemon”
+                  mode, this service is meant to manage all network stuff in the background rather than “NetworkManager”
+                  is
+                  for setting network graphically up with the help of its GUI.
+                </div>
               </article-cp>
               <article-cp topic="Deploying a React Web Application that's created by create-react-app"
                           link="https://hesamyan.medium.com/deploying-a-react-web-application-thats-created-by-create-react-app-2234ddf8eafa"
-                          date="Dec 9 - 2020">Introduction
-                Upon the completion of my React web app that was initially made by create-react-app, I tried to deploy it
-                on Heroku, but it basically seemed a bit difficult. To get some clues for resolving that, as googling has
-                been always the primitive choice, so I did it.
+                          date="Dec 9 - 2020">
+                <div class="cursor-help">Introduction
+                  Upon the completion of my React web app that was initially made by create-react-app, I tried to deploy
+                  it
+                  on Heroku, but it basically seemed a bit difficult. To get some clues for resolving that, as googling
+                  has
+                  been always the primitive choice, so I did it.
+                </div>
               </article-cp>
 
             </div>

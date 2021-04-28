@@ -13,7 +13,7 @@
       <div class="flex-initial mx-4 md:mx-10 lg:w-1/6">
         <side-panel></side-panel>
       </div>
-      <div class="flex-1 w-auto mx-4 md:w-5/6">
+      <div class="flex-1 w-screen mx-4 md:w-5/6">
         <main-panel></main-panel>
       </div>
     </div>

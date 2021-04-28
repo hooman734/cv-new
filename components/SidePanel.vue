@@ -5,7 +5,7 @@
         <div class="flex flex-col">
           <p class="font-bold text-gray-700 font-sans text-xl">Profile</p>
           <div class="">
-            <p class="font-semibold mb-4 text-justify font-serif">Seeking a Full-Stack Software Development position Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias itaque minus neque nulla obcaecati, optio quia veritatis. Assumenda cupiditate incidunt laboriosam laudantium maxime obcaecati vero. Commodi eligendi nam necessitatibus quisquam!</p>
+            <p class="font-semibold mb-4 text-justify hover:text-green-900 font-serif tracking-tighter">I am a Web Developer with around 1 year experience after graduation and 3 years experience during my eduation at American University of Armenia. Currently I am seeking for a Full-Stack Software Development position.</p>
           </div>
 
         </div>
@@ -40,11 +40,11 @@
               <font-awesome-icon icon="phone-square-alt"/>
               Phone
             </p>
-            <p class="font-light mb-4 font-mono"><a target="_blank" href="tell:+37477281774">+374-77-281-774</a></p>
+            <p class="font-light mb-4 font-mono"><a target="_blank" href="tel:+37477281774">+374-77-281-774</a></p>
           </div>
           <div class="flex flex-col">
             <p class="font-bold text-gray-700 font-sans mt-3 md:mt-10">Links</p>
-            <p class="text-green-900 font-bold text-xl">
+            <p class="text-green-900 font-bold">
               <font-awesome-icon icon="link"/>
               Linkedin
             </p>
