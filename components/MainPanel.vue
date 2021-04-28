@@ -3,7 +3,7 @@
     <div class="flex-flex-col align-middle justify-center flex-grow">
       <!--  Education  -->
       <div>
-        <p class="font-bold text-gray-700 font-sans text-xl">
+        <p class="font-bold text-gray-700 font-sans">
           <font-awesome-icon icon="graduation-cap"/>
           Education
         </p>
@@ -57,7 +57,7 @@
       </div>
       <!--  Experience  -->
       <div class="mt-3 md:mt-10">
-        <p class="font-bold text-gray-700 font-sans text-xl">
+        <p class="font-bold text-gray-700 font-sans">
           <font-awesome-icon icon="briefcase"/>
           Experience
         </p>
@@ -95,7 +95,7 @@
         <div id="skills" class="flex flex-row flex-wrap align-baseline">
           <!--  Technical Skills  -->
           <div class="mt-3 md:mt-10">
-            <p class="font-bold text-gray-700 font-sans text-xl">
+            <p class="font-bold text-gray-700 font-sans">
               <font-awesome-icon icon="puzzle-piece"/>
               Technical Skills
             </p>
@@ -202,7 +202,7 @@
           </div>
           <!--  General Skills  -->
           <div class="mt-3 md:mt-10">
-            <p class="font-bold text-gray-700 font-sans text-xl">
+            <p class="font-bold text-gray-700 font-sans">
               <font-awesome-icon icon="wrench"/>
               General Skills
             </p>
@@ -237,45 +237,47 @@
 
         <!---->
 
+        <div class="mt-3 md:mt-10">
+          <div id="articles" class="container">
+            <p class="font-bold text-gray-700 font-sans">
+              <font-awesome-icon icon="pen-nib"/>
+              Articles
+            </p>
+            <div class="flex flex-row flex-wrap justify-start content-evenly ml-2 md:ml-9">
+              <article-cp topic="Experience With F#" link="https://hesamyan.medium.com/experience-with-f-618118e99408"
+                          date="Mar 3 - 2021">Here I am going to share my experience with F# — the functional-first,
+                general-purpose, strongly typed, multi-paradigm programming language — which I have recently started to
+                learn.
+              </article-cp>
+              <article-cp topic="Setting up Dockerfile & GitHub Workflow"
+                          link="https://hesamyan.medium.com/setting-up-dockerfile-github-workflow-86cafd82cf97"
+                          date="Jan 30 - 2021">Here I want to tell my experience with Docker builder and GitHub Workflow.
+                I had a React project developed using Next.js and stored in my GitHub account for a while, so it came to
+                my mind to fiddle with this repository using.
+              </article-cp>
+              <article-cp topic="Implementing four types of linked-lists"
+                          link="https://hesamyan.medium.com/implementing-four-types-of-linked-lists-d812d5c39812"
+                          date="Dec 31 - 2020">I recently have developed four types of linked-lists, namely:
+                singly-linked-list—doubly-linked-list—circular-singly-linked-list—circular-doubly-linked-list.
+              </article-cp>
+              <article-cp topic="Switching from NetworkManager to systemd-networkd"
+                          link="https://hesamyan.medium.com/switching-from-networkmanager-to-systemd-networkd-dcbda0b15056"
+                          date="Dec 24 - 2020">As the letter ‘d’ in the name of “systemd-networkd” infers for “daemon”
+                mode, this service is meant to manage all network stuff in the background rather than “NetworkManager” is
+                for setting network graphically up with the help of its GUI.
+              </article-cp>
+              <article-cp topic="Deploying a React Web Application that's created by create-react-app"
+                          link="https://hesamyan.medium.com/deploying-a-react-web-application-thats-created-by-create-react-app-2234ddf8eafa"
+                          date="Dec 9 - 2020">Introduction
+                Upon the completion of my React web app that was initially made by create-react-app, I tried to deploy it
+                on Heroku, but it basically seemed a bit difficult. To get some clues for resolving that, as googling has
+                been always the primitive choice, so I did it.
+              </article-cp>
 
-        <div id="articles" class="container">
-          <p class="font-bold text-gray-700 font-sans text-xl">
-            <font-awesome-icon icon="pen-nib"/>
-            Articles
-          </p>
-          <div class="flex flex-row flex-wrap justify-start content-evenly ml-2 md:ml-9">
-            <article-cp topic="Experience With F#" link="https://hesamyan.medium.com/experience-with-f-618118e99408"
-                        date="Mar 3 - 2021">Here I am going to share my experience with F# — the functional-first,
-              general-purpose, strongly typed, multi-paradigm programming language — which I have recently started to
-              learn.
-            </article-cp>
-            <article-cp topic="Setting up Dockerfile & GitHub Workflow"
-                        link="https://hesamyan.medium.com/setting-up-dockerfile-github-workflow-86cafd82cf97"
-                        date="Jan 30 - 2021">Here I want to tell my experience with Docker builder and GitHub Workflow.
-              I had a React project developed using Next.js and stored in my GitHub account for a while, so it came to
-              my mind to fiddle with this repository using.
-            </article-cp>
-            <article-cp topic="Implementing four types of linked-lists"
-                        link="https://hesamyan.medium.com/implementing-four-types-of-linked-lists-d812d5c39812"
-                        date="Dec 31 - 2020">I recently have developed four types of linked-lists, namely:
-              singly-linked-list—doubly-linked-list—circular-singly-linked-list—circular-doubly-linked-list.
-            </article-cp>
-            <article-cp topic="Switching from NetworkManager to systemd-networkd"
-                        link="https://hesamyan.medium.com/switching-from-networkmanager-to-systemd-networkd-dcbda0b15056"
-                        date="Dec 24 - 2020">As the letter ‘d’ in the name of “systemd-networkd” infers for “daemon”
-              mode, this service is meant to manage all network stuff in the background rather than “NetworkManager” is
-              for setting network graphically up with the help of its GUI.
-            </article-cp>
-            <article-cp topic="Deploying a React Web Application that's created by create-react-app"
-                        link="https://hesamyan.medium.com/deploying-a-react-web-application-thats-created-by-create-react-app-2234ddf8eafa"
-                        date="Dec 9 - 2020">Introduction
-              Upon the completion of my React web app that was initially made by create-react-app, I tried to deploy it
-              on Heroku, but it basically seemed a bit difficult. To get some clues for resolving that, as googling has
-              been always the primitive choice, so I did it.
-            </article-cp>
-
+            </div>
           </div>
         </div>
+
 
       </div>
     </div>
