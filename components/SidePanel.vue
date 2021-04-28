@@ -11,39 +11,39 @@
         </div>
         <div id="info" class="flex flex-row xl:flex-col flex-wrap justify-between">
           <div class="flex flex-col">
-            <p class="font-bold text-gray-700 font-sans text-xl mt-3 md:mt-10">Personal Details</p>
-            <p class="text-green-900 font-bold text-xl">
+            <p class="font-bold text-gray-700 font-sans mt-3 md:mt-10">Personal Details</p>
+            <p class="text-green-900 font-bold">
               <font-awesome-icon icon="calendar-alt"/>
               Birthdate
             </p>
             <p class="font-light mb-4 font-mono">1981</p>
-            <p class="text-green-900 font-bold text-xl">
+            <p class="text-green-900 font-bold">
               <font-awesome-icon icon="globe-asia"/>
               Nationality
             </p>
             <p class="font-light mb-4 font-mono">Iranian</p>
-            <p class="text-green-900 font-bold text-xl">
+            <p class="text-green-900 font-bold">
               <font-awesome-icon icon="map-marker-alt"/>
               Address
             </p>
             <p class="font-light mb-4 font-mono">Komitas, Yerevan</p>
           </div>
           <div class="flex flex-col">
-            <p class="font-bold text-gray-700 font-sans text-xl mt-3 md:mt-10">Contact</p>
+            <p class="font-bold text-gray-700 font-sans mt-3 md:mt-10">Contact</p>
             <p class="text-green-900 font-bold text-xl">
               <font-awesome-icon icon="inbox"/>
               Email
             </p>
             <p class="font-light mb-4 font-mono">
               <a target="_blank" href="mailto:hesamyan@gmail.com">hesamyan@gmail.com</a></p>
-            <p class="text-green-900 font-bold text-xl">
+            <p class="text-green-900 font-bold">
               <font-awesome-icon icon="phone-square-alt"/>
               Phone
             </p>
             <p class="font-light mb-4 font-mono"><a target="_blank" href="tell:+37477281774">+374-77-281-774</a></p>
           </div>
           <div class="flex flex-col">
-            <p class="font-bold text-gray-700 font-sans text-xl mt-3 md:mt-10">Links</p>
+            <p class="font-bold text-gray-700 font-sans mt-3 md:mt-10">Links</p>
             <p class="text-green-900 font-bold text-xl">
               <font-awesome-icon icon="link"/>
               Linkedin
@@ -52,7 +52,7 @@
               <p class="font-light mb-4 font-mono">linkedin.com/in/hesamyan</p>
             </a>
 
-            <p class="text-green-900 font-bold text-xl">
+            <p class="text-green-900 font-bold">
               <font-awesome-icon icon="link"/>
               Github
             </p>
@@ -60,7 +60,7 @@
               <p class="font-light mb-4 font-mono">github.com/hooman734</p>
             </a>
 
-            <p class="text-green-900 font-bold text-xl">
+            <p class="text-green-900 font-bold">
               <font-awesome-icon icon="link"/>
               Diploma
             </p>

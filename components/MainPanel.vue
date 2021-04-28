@@ -1,6 +1,6 @@
 <template>
-  <div class="flex justify-center my-auto">
-    <div class="flex-flex-col align-middle justify-center">
+  <div class="flex justify-center my-auto mx-3">
+    <div class="flex-flex-col align-middle justify-center flex-grow">
       <!--  Education  -->
       <div>
         <p class="font-bold text-gray-700 font-sans text-xl">
@@ -8,7 +8,7 @@
           Education
         </p>
         <div class="ml-2 md:ml-9">
-          <div class="flex flex-row justify-between">
+          <div class="flex flex-row flex-wrap justify-between">
             <p class="text-green-900 font-bold">
               <font-awesome-icon class="text-xs" icon="dot-circle"/>
               American University of Armenia
@@ -30,7 +30,7 @@
               <li>Image Processing</li>
             </ul>
           </div>
-          <div class="flex flex-row justify-between">
+          <div class="flex flex-row flex-wrap justify-between">
             <p class="text-green-900 font-bold">
               <font-awesome-icon class="text-xs" icon="dot-circle"/>
               Azad University
@@ -41,7 +41,7 @@
             <p class="text-gray-400 text-sm mb-1.5">Gorgan, Iran</p>
             <p class="font-semibold pb-4">Bachelor of Science in Civil Engineering</p>
           </div>
-          <div class="flex flex-row justify-between">
+          <div class="flex flex-row flex-wrap justify-between">
             <p class="text-green-900 font-bold">
               <font-awesome-icon class="text-xs" icon="dot-circle"/>
               Mazandaran University
@@ -62,7 +62,7 @@
           Experience
         </p>
         <div class="ml-2 md:ml-9">
-          <div class="flex flex-row justify-between">
+          <div class="flex flex-row flex-wrap justify-between">
             <p class="text-green-900 font-bold">
               <font-awesome-icon class="text-xs" icon="dot-circle"/>
               Freelance
@@ -74,7 +74,7 @@
             <p class="font-semibold">Master of Science in Computer and Information Science</p>
             <p class="font-semibold">Following are some prominent courses during my education at AUA</p>
           </div>
-          <div class="flex flex-row justify-between">
+          <div class="flex flex-row flex-wrap justify-between">
             <p class="text-green-900 font-bold">
               <font-awesome-icon class="text-xs" icon="dot-circle"/>
               AUA
@@ -107,7 +107,7 @@
                 </p>
               </div>
               <div class="border-l-4 pl-5 pb-4">
-                <div class="flex flex-row align-middle justify-start font-black text-sm">
+                <div class="flex flex-wrap flex-row align-middle justify-start font-black text-sm">
                   <p class="ring-gray-100 rounded bg-gray-100 bg-clip-padding p-1 m-1">C#</p>
                   <p class="ring-gray-100 rounded bg-gray-100 bg-clip-padding p-1 m-1">C++</p>
                   <p class="ring-gray-100 rounded bg-gray-100 bg-clip-padding p-1 m-1">Java</p>
@@ -124,7 +124,7 @@
                 </p>
               </div>
               <div class="border-l-4 pl-5 pb-4">
-                <div class="flex flex-row align-middle justify-start font-black text-sm">
+                <div class="flex flex-row flex-wrap align-middle justify-start font-black text-sm">
                   <p class="ring-gray-100 rounded bg-gray-100 bg-clip-padding p-1 m-1">HTML</p>
                   <p class="ring-gray-100 rounded bg-gray-100 bg-clip-padding p-1 m-1">CSS</p>
                   <p class="ring-gray-100 rounded bg-gray-100 bg-clip-padding p-1 m-1">jQuery</p>
@@ -143,7 +143,7 @@
                 </p>
               </div>
               <div class="border-l-4 pl-5 pb-4">
-                <div class="flex flex-row align-middle justify-start font-black text-sm">
+                <div class="flex flex-row flex-wrap align-middle justify-start font-black text-sm">
                   <p class="ring-gray-100 rounded bg-gray-100 bg-clip-padding p-1 m-1">Node.js</p>
                   <p class="ring-gray-100 rounded bg-gray-100 bg-clip-padding p-1 m-1">Express.js</p>
                   <p class="ring-gray-100 rounded bg-gray-100 bg-clip-padding p-1 m-1">.NET Core</p>
@@ -159,7 +159,7 @@
                 </p>
               </div>
               <div class="border-l-4 pl-5 pb-4">
-                <div class="flex flex-row align-middle justify-start font-black text-sm">
+                <div class="flex flex-row flex-wrap align-middle justify-start font-black text-sm">
                   <p class="ring-gray-100 rounded bg-gray-100 bg-clip-padding p-1 m-1">Tkinter</p>
                   <p class="ring-gray-100 rounded bg-gray-100 bg-clip-padding p-1 m-1">Sequelize.js</p>
                   <p class="ring-gray-100 rounded bg-gray-100 bg-clip-padding p-1 m-1">Entity Framework.Core</p>
@@ -172,7 +172,7 @@
                 </p>
               </div>
               <div class="border-l-4 pl-5 pb-4">
-                <div class="flex flex-row align-middle justify-start font-black text-sm">
+                <div class="flex flex-row flex-wrap align-middle justify-start font-black text-sm">
                   <p class="ring-gray-100 rounded bg-gray-100 bg-clip-padding p-1 m-1">SQLite</p>
                   <p class="ring-gray-100 rounded bg-gray-100 bg-clip-padding p-1 m-1">​MySQL</p>
                   <p class="ring-gray-100 rounded bg-gray-100 bg-clip-padding p-1 m-1">Postgres</p>
@@ -188,7 +188,7 @@
                 </p>
               </div>
               <div class="pl-5 pb-4">
-                <div class="flex flex-row align-middle justify-start font-black text-sm">
+                <div class="flex flex-row flex-wrap align-middle justify-start font-black text-sm">
                   <p class="ring-gray-100 rounded bg-gray-100 bg-clip-padding p-1 m-1">Git</p>
                   <p class="ring-gray-100 rounded bg-gray-100 bg-clip-padding p-1 m-1">Linux</p>
                   <p class="ring-gray-100 rounded bg-gray-100 bg-clip-padding p-1 m-1">Heroku</p>
@@ -238,7 +238,7 @@
         <!---->
 
 
-        <div>
+        <div id="articles" class="container">
           <p class="font-bold text-gray-700 font-sans text-xl">
             <font-awesome-icon icon="pen-nib"/>
             Articles
