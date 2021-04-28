@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto my-auto flex-wrap">
     <div class="flex flex-row flex-wrap justify-items-center mt-6 md:mt-20">
-      <div class="flex-initial mx-4 lg:w-1/5">
+      <div class="flex-initial mx-4 md:mx-10 md:pl-10 lg:w-1/5">
         <photo></photo>
       </div>
       <div class="flex flex-1 mx-4 justify-center md:w-4/5">

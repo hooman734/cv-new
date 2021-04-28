@@ -10,7 +10,8 @@ export default {
 
 <style scoped>
 .image {
-  background-image: url("../assets/hooman.png");
+  /*background-image: url("../assets/hooman.png");*/
+  background-image: url("../assets/brad-pitt .jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -9,67 +9,74 @@
           </div>
 
         </div>
-        <div class="flex flex-col">
-          <p class="font-bold text-gray-700 font-sans text-xl mt-3 md:mt-10">Personal Details</p>
-          <p class="text-green-900 font-bold text-xl">
-            <font-awesome-icon icon="calendar-alt"/>
-            Birthdate
-          </p>
-          <p class="font-light mb-4 font-mono">1981</p>
-          <p class="text-green-900 font-bold text-xl">
-            <font-awesome-icon icon="globe-asia"/>
-            Nationality
-          </p>
-          <p class="font-light mb-4 font-mono">Iranian</p>
-          <p class="text-green-900 font-bold text-xl">
-            <font-awesome-icon icon="map-marker-alt"/>
-            Address
-          </p>
-          <p class="font-light mb-4 font-mono">Komitas, Yerevan</p>
+        <div id="info" class="flex flex-row xl:flex-col flex-wrap justify-between">
+          <div class="flex flex-col">
+            <p class="font-bold text-gray-700 font-sans text-xl mt-3 md:mt-10">Personal Details</p>
+            <p class="text-green-900 font-bold text-xl">
+              <font-awesome-icon icon="calendar-alt"/>
+              Birthdate
+            </p>
+            <p class="font-light mb-4 font-mono">1981</p>
+            <p class="text-green-900 font-bold text-xl">
+              <font-awesome-icon icon="globe-asia"/>
+              Nationality
+            </p>
+            <p class="font-light mb-4 font-mono">Iranian</p>
+            <p class="text-green-900 font-bold text-xl">
+              <font-awesome-icon icon="map-marker-alt"/>
+              Address
+            </p>
+            <p class="font-light mb-4 font-mono">Komitas, Yerevan</p>
+          </div>
+          <div class="flex flex-col">
+            <p class="font-bold text-gray-700 font-sans text-xl mt-3 md:mt-10">Contact</p>
+            <p class="text-green-900 font-bold text-xl">
+              <font-awesome-icon icon="inbox"/>
+              Email
+            </p>
+            <p class="font-light mb-4 font-mono">hesamyan@gmail.com</p>
+            <p class="text-green-900 font-bold text-xl">
+              <font-awesome-icon icon="phone-square-alt"/>
+              Phone
+            </p>
+            <p class="font-light mb-4 font-mono">+374-77-281-774</p>
+          </div>
+          <div class="flex flex-col">
+            <p class="font-bold text-gray-700 font-sans text-xl mt-3 md:mt-10">Links</p>
+            <p class="text-green-900 font-bold text-xl">
+              <font-awesome-icon icon="link"/>
+              Linkedin
+            </p>
+            <a target="_blank" href="https://www.linkedin.com/in/hesamyan/">
+              <p class="font-light mb-4 font-mono">linkedin.com/in/hesamyan</p>
+            </a>
+
+            <p class="text-green-900 font-bold text-xl">
+              <font-awesome-icon icon="link"/>
+              Github
+            </p>
+            <a target="_blank" href="https://github.com/hooman734/">
+              <p class="font-light mb-4 font-mono">github.com/hooman734</p>
+            </a>
+
+            <p class="text-green-900 font-bold text-xl">
+              <font-awesome-icon icon="link"/>
+              Diploma
+            </p>
+            <a target="_blank" href="https://hooman734.github.io/assets/Masters-Diploma.pdf">
+              <p class="font-light mb-4 font-mono">Master's Diploma</p>
+            </a>
+
+          </div>
         </div>
+
+        </div>
+
+
 <!--        -->
-        <div class="flex flex-col">
-          <p class="font-bold text-gray-700 font-sans text-xl mt-3 md:mt-10">Contact</p>
-          <p class="text-green-900 font-bold text-xl">
-            <font-awesome-icon icon="inbox"/>
-            Email
-          </p>
-          <p class="font-light mb-4 font-mono">hesamyan@gmail.com</p>
-          <p class="text-green-900 font-bold text-xl">
-            <font-awesome-icon icon="phone-square-alt"/>
-            Phone
-          </p>
-          <p class="font-light mb-4 font-mono">+374-77-281-774</p>
-        </div>
 
-        <div class="flex flex-col">
-          <p class="font-bold text-gray-700 font-sans text-xl mt-3 md:mt-10">Links</p>
-          <p class="text-green-900 font-bold text-xl">
-            <font-awesome-icon icon="link"/>
-            Linkedin
-          </p>
-          <a target="_blank" href="https://www.linkedin.com/in/hesamyan/">
-            <p class="font-light mb-4 font-mono">linkedin.com/in/hesamyan</p>
-          </a>
 
-          <p class="text-green-900 font-bold text-xl">
-            <font-awesome-icon icon="link"/>
-            Github
-          </p>
-          <a target="_blank" href="https://github.com/hooman734/">
-            <p class="font-light mb-4 font-mono">github.com/hooman734</p>
-          </a>
 
-          <p class="text-green-900 font-bold text-xl">
-            <font-awesome-icon icon="link"/>
-            Diploma
-          </p>
-          <a target="_blank" href="https://hooman734.github.io/assets/Masters-Diploma.pdf">
-            <p class="font-light mb-4 font-mono">Master's Diploma</p>
-          </a>
-
-        </div>
-      </div>
 
 
 
