@@ -15,7 +15,7 @@
             </p>
             <p class="text-green-900 font-bold">2017 - 2020</p>
           </div>
-          <div class="border-l-4 pl-5 pb-4">
+          <div class="border-l-4 pl-5 pb-4 text-justify break-all">
             <p class="text-gray-400 text-sm mb-1.5">Yerevan, Armenia</p>
             <p class="font-semibold">Master of Science in Computer and Information Science</p>
             <p class="font-semibold">Following are some prominent courses during my education at AUA</p>
@@ -69,7 +69,7 @@
             </p>
             <p class="text-green-900 font-bold">2021</p>
           </div>
-          <div class="border-l-4 pl-5 pb-4">
+          <div class="border-l-4 pl-5 pb-4 text-justify break-all">
             <p class="text-gray-400 text-sm mb-1.5">Online</p>
             <p class="">Learning F# and functional programming principals</p>
             <p class="">Implementing back-end API using .Net and F#</p>
@@ -81,7 +81,7 @@
             </p>
             <p class="text-green-900 font-bold">2020</p>
           </div>
-          <div class="pl-5 pb-4">
+          <div class="pl-5 pb-4 text-justify break-all">
             <p class="text-gray-400 text-sm mb-1.5">Yerevan, Armenia</p>
             <p class="font-semibold">Graduate School Internship Project </p>
             <ul class="list-inside list-disc">

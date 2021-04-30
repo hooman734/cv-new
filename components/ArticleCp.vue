@@ -1,6 +1,6 @@
 <template>
 <div class="container rounded-3xl h-auto w-1/2 md:w-1/3 xl:w-1/4 h-auto p-3 m-3">
-  <div class="flex flex-col flex-wrap">
+  <div class="flex flex-col flex-wrap text-justify break-all">
     <a target="_blank" v-bind:href="link">
       <p class="font-bold font-sans">{{topic}}</p>
       <p class="text-xs text-gray-400 mb-2.5">{{date}}</p>
