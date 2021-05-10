@@ -354,7 +354,7 @@ export default {
         trigger: this.$refs.topic4,
       }})
     gsap.from(this.$refs.body5, {duration: 1, x: '-4rem', opacity: 0, delay: 0.5, scrollTrigger: {
-        trigger: this.$refs.topic4,
+        trigger: this.$refs.topic5,
       }})
   }
 }
