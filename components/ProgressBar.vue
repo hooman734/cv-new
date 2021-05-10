@@ -21,9 +21,7 @@
 <script>
 export default {
   name: "ProgressBar",
-  props: {
-    percent: Number
-  },
+  props: ['percent'],
   computed: {
     bar1: function () {
       if (this.percent < 15) {

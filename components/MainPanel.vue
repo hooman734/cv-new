@@ -215,7 +215,7 @@
               </div>
               <div class="border-l-4 pb-4">
                 <div class="">
-                  <progress-bar percent="72.22">6.5</progress-bar>
+                  <progress-bar percent=72.22>6.5</progress-bar>
                 </div>
               </div>
               <!--              -->
@@ -227,7 +227,7 @@
               </div>
               <div class="pb-4">
                 <div class="">
-                  <progress-bar percent="72.66">86</progress-bar>
+                  <progress-bar percent=72.66>86</progress-bar>
                 </div>
               </div>
             </div>

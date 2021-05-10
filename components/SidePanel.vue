@@ -5,7 +5,7 @@
         <div class="flex flex-col">
           <p class="font-bold text-gray-700 font-sans text-xl">Profile</p>
           <div class="">
-            <p class="font-semibold mb-4 text-justify break-all hover:text-green-900 tracking-tighter">I am a Web Developer with around 1 year experience after graduation and 3 years experience during my eduation at American University of Armenia. Currently I am seeking for a Full-Stack Software Development position.</p>
+            <p id="txt" ref="info" class="font-semibold mb-4 text-justify break-all hover:text-green-900 tracking-tighter"></p>
           </div>
 
         </div>
@@ -88,6 +88,10 @@
 
 <script>
 import Vue from 'vue'
+import gsap from 'gsap'
+import TextPlugin from 'gsap/dist/TextPlugin'
+gsap.registerPlugin(TextPlugin)
+
 import {library} from '@fortawesome/fontawesome-svg-core'
 import {
   faInbox,
@@ -103,8 +107,12 @@ library.add(faInbox, faGlobeAsia, faMapMarkerAlt, faCalendarAlt, faPhoneSquareAl
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 export default {
-  name: "SidePanel"
+  name: "SidePanel",
+  mounted() {
+    gsap.to(this.$refs.info, {duration: 10, text: "I am a Web Developer with around 1 year experience after graduation and 3 years experience during my eduation at American University of Armenia. Currently I am seeking for a Full-Stack Software Development position."})
+  }
 }
+
 </script>
 
 <style scoped>
