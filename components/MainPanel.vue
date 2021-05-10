@@ -3,11 +3,11 @@
     <div class="flex-flex-col align-middle justify-center flex-grow">
       <!--  Education  -->
       <div>
-        <p class="font-bold text-gray-700 font-sans">
+        <p ref="topic1" class="font-bold text-gray-700 font-sans">
           <font-awesome-icon icon="graduation-cap"/>
           Education
         </p>
-        <div class="ml-2 md:ml-9">
+        <div ref="body1" class="ml-2 md:ml-9">
           <div class="flex flex-row flex-wrap justify-between">
             <p class="text-green-900 font-bold">
               <font-awesome-icon class="text-xs" icon="dot-circle"/>
@@ -57,11 +57,11 @@
       </div>
       <!--  Experience  -->
       <div class="mt-3 md:mt-10">
-        <p class="font-bold text-gray-700 font-sans">
+        <p ref="topic2" class="font-bold text-gray-700 font-sans">
           <font-awesome-icon icon="briefcase"/>
           Experience
         </p>
-        <div class="ml-2 md:ml-9">
+        <div ref="body2" class="ml-2 md:ml-9">
           <div class="flex flex-row flex-wrap justify-between">
             <p class="text-green-900 font-bold">
               <font-awesome-icon class="text-xs" icon="dot-circle"/>
@@ -95,11 +95,11 @@
         <div id="skills" class="flex flex-row flex-wrap align-baseline">
           <!--  Technical Skills  -->
           <div class="mt-3 md:mt-10">
-            <p class="font-bold text-gray-700 font-sans">
+            <p ref="topic3" class="font-bold text-gray-700 font-sans">
               <font-awesome-icon icon="puzzle-piece"/>
               Technical Skills
             </p>
-            <div class="ml-2 md:ml-9">
+            <div ref="body3" class="ml-2 md:ml-9">
               <div class="flex flex-row justify-between">
                 <p class="text-green-900 font-bold">
                   <font-awesome-icon class="text-xs" icon="dot-circle"/>
@@ -202,11 +202,11 @@
           </div>
           <!--  General Skills  -->
           <div class="mt-3 md:mt-10">
-            <p class="font-bold text-gray-700 font-sans">
+            <p ref="topic4" class="font-bold text-gray-700 font-sans">
               <font-awesome-icon icon="wrench"/>
               General Skills
             </p>
-            <div class="ml-2 md:ml-9">
+            <div ref="body4" class="ml-2 md:ml-9">
               <div class="flex flex-row justify-between">
                 <p class="text-green-900 font-bold">
                   <font-awesome-icon class="text-xs" icon="dot-circle"/>
@@ -239,11 +239,11 @@
 
         <div class="mt-3 md:mt-10">
           <div id="articles" class="container">
-            <p class="font-bold text-gray-700 font-sans">
+            <p ref="topic5" class="font-bold text-gray-700 font-sans">
               <font-awesome-icon icon="pen-nib"/>
               Articles
             </p>
-            <div class="flex flex-row flex-wrap justify-center md:justify-start content-evenly ml-2 md:ml-9">
+            <div ref="body5" class="flex flex-row flex-wrap justify-center md:justify-start content-evenly ml-2 md:ml-9">
               <article-cp topic="Experience With F#" link="https://hesamyan.medium.com/experience-with-f-618118e99408"
                           date="Mar 3 - 2021">
                 <div class="cursor-help">Here I am going to share my experience with F# — the functional-first,
@@ -302,6 +302,9 @@
 
 <script>
 import Vue from 'vue'
+import gsap from 'gsap'
+import ScrollToPlugin from 'gsap/dist/ScrollTrigger'
+gsap.registerPlugin(ScrollToPlugin)
 import {library} from '@fortawesome/fontawesome-svg-core'
 import {
   faGraduationCap,
@@ -318,7 +321,52 @@ library.add(faGraduationCap, faDotCircle, faBriefcase, faPuzzlePiece, faWrench, 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 export default {
-  name: "MainPanel"
+  name: "MainPanel",
+  mounted() {
+    gsap.from(this.$refs.topic1, {duration: 2, fontSize: '4rem', x: '4rem', opacity: 0, ease: "back.out(1.7)", scrollTrigger: {
+        trigger: this.$refs.topic1,
+      }})
+    gsap.from(this.$refs.topic2, {duration: 1, fontSize: '4rem', x: '4rem', opacity: 0, ease: "back.out(1.7)", scrollTrigger: {
+      trigger: this.$refs.topic2,
+      }})
+    gsap.from(this.$refs.topic3, {duration: 1, fontSize: '4rem', x: '4rem', opacity: 0, ease: "back.out(1.7)", scrollTrigger: {
+        trigger: this.$refs.topic3,
+      }})
+    gsap.from(this.$refs.topic4, {duration: 1, fontSize: '4rem', x: '4rem', opacity: 0, ease: "back.out(1.7)", scrollTrigger: {
+        trigger: this.$refs.topic4,
+      }})
+    gsap.from(this.$refs.topic5, {duration: 1, fontSize: '4rem', x: '4rem', opacity: 0, ease: "back.out(1.7)", scrollTrigger: {
+        trigger: this.$refs.topic4,
+      }})
+
+  //
+
+    gsap.from(this.$refs.body1, {duration: 1, x: '-4rem', opacity: 0, delay: 0.5, scrollTrigger: {
+        trigger: this.$refs.topic1,
+        start: 'center center',
+        end: 'center center'
+      }})
+    gsap.from(this.$refs.body2, {duration: 1, x: '-4rem', opacity: 0, delay: 0.5, scrollTrigger: {
+        trigger: this.$refs.topic2,
+        start: 'center center',
+        end: 'center center'
+      }})
+    gsap.from(this.$refs.body3, {duration: 1, x: '-4rem', opacity: 0, delay: 0.5, scrollTrigger: {
+        trigger: this.$refs.topic3,
+        start: 'center center',
+        end: 'center center'
+      }})
+    gsap.from(this.$refs.body4, {duration: 1, x: '-4rem', opacity: 0, delay: 0.5, scrollTrigger: {
+        trigger: this.$refs.topic4,
+        start: 'center center',
+        end: 'center center'
+      }})
+    gsap.from(this.$refs.body5, {duration: 1, x: '-4rem', opacity: 0, delay: 0.5, scrollTrigger: {
+        trigger: this.$refs.topic4,
+        start: 'center center',
+        end: 'center center'
+      }})
+  }
 }
 </script>
 
