@@ -343,28 +343,18 @@ export default {
 
     gsap.from(this.$refs.body1, {duration: 1, x: '-4rem', opacity: 0, delay: 0.5, scrollTrigger: {
         trigger: this.$refs.topic1,
-        start: 'center center',
-        end: 'center center'
       }})
     gsap.from(this.$refs.body2, {duration: 1, x: '-4rem', opacity: 0, delay: 0.5, scrollTrigger: {
         trigger: this.$refs.topic2,
-        start: 'center center',
-        end: 'center center'
       }})
     gsap.from(this.$refs.body3, {duration: 1, x: '-4rem', opacity: 0, delay: 0.5, scrollTrigger: {
         trigger: this.$refs.topic3,
-        start: 'center center',
-        end: 'center center'
       }})
     gsap.from(this.$refs.body4, {duration: 1, x: '-4rem', opacity: 0, delay: 0.5, scrollTrigger: {
         trigger: this.$refs.topic4,
-        start: 'center center',
-        end: 'center center'
       }})
     gsap.from(this.$refs.body5, {duration: 1, x: '-4rem', opacity: 0, delay: 0.5, scrollTrigger: {
         trigger: this.$refs.topic4,
-        start: 'center center',
-        end: 'center center'
       }})
   }
 }
