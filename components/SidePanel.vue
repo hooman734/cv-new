@@ -5,7 +5,7 @@
         <div class="flex flex-col">
           <p class="font-bold text-gray-700 font-sans text-xl">Profile</p>
           <div class="">
-            <p class="font-semibold mb-4 text-justify break-all hover:text-green-900 font-serif tracking-tighter">I am a Web Developer with around 1 year experience after graduation and 3 years experience during my eduation at American University of Armenia. Currently I am seeking for a Full-Stack Software Development position.</p>
+            <p class="font-semibold mb-4 text-justify break-all hover:text-green-900 tracking-tighter">I am a Web Developer with around 1 year experience after graduation and 3 years experience during my eduation at American University of Armenia. Currently I am seeking for a Full-Stack Software Development position.</p>
           </div>
 
         </div>
