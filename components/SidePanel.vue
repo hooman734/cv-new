@@ -109,7 +109,7 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 export default {
   name: "SidePanel",
   mounted() {
-    gsap.to(this.$refs.info, {duration: 10, text: "I am a Web Developer with around 1 year experience after graduation and 3 years experience during my eduation at American University of Armenia. Currently I am seeking for a Full-Stack Software Development position."})
+    gsap.to(this.$refs.info, {duration: 10, text: "I am a Web Developer with around 1-year of experience after graduation and 3 years of experience during my education at the American University of Armenia. Currently, I am seeking a Full-Stack Software Development position."})
   }
 }
 
