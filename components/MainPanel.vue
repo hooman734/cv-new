@@ -336,7 +336,7 @@ export default {
         trigger: this.$refs.topic4,
       }})
     gsap.from(this.$refs.topic5, {duration: 1, fontSize: '4rem', x: '4rem', opacity: 0, ease: "back.out(1.7)", scrollTrigger: {
-        trigger: this.$refs.topic4,
+        trigger: this.$refs.topic5,
       }})
 
   //
