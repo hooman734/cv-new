@@ -3,7 +3,7 @@
     <div class="flex-flex-col align-middle justify-center flex-grow">
       <!--  Experience  -->
       <!-- Custom component -->
-      <experience topic="custom topic" subTopic="sub topic" date="2023" description1="description one" description2="description two" items="{'Iran', 'Canada', 'Armenia', 'USA'}"></experience>
+      <experience topic="custom topic" subTopic="sub topic" date="2023" description1="description one" description2="description two" :items="['Iran', 'Canada', 'Armenia', 'USA']"></experience>
       <!-- /Custom component -->
       <div class="mt-3 md:mt-10">
         <p ref="topic2" class="font-bold text-gray-700 font-sans">

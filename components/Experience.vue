@@ -10,7 +10,7 @@
         <div class="border-l-4 pl-5 pb-4 text-justify break-all">
         <p class="text-gray-400 text-sm mb-1.5">{{subTopic}}</p>
         <p class="">{{description1}}</p>
-        <p class="">{{descriptio2}}</p>
+        <p class="">{{description2}}</p>
         </div>
         <ul class="list-inside list-disc">
             <li v-for="(item, idx) in items" :key="idx">{{item}}</li>
