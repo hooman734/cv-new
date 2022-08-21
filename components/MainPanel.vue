@@ -107,6 +107,21 @@
               </p>
               <p class="text-green-900 font-bold">2017 - 2020</p>
             </div>
+            <!--  -->
+            <div class="flex flex-row flex-wrap justify-between">
+              <p class="text-green-900 font-bold">
+                <font-awesome-icon class="text-xs" icon="dot-circle" />
+                Concordia University
+              </p>
+              <p class="text-green-900 font-bold">Current</p>
+            </div>
+            <div class="border-l-4 pl-5">
+              <p class="text-gray-400 text-sm mb-1.5">Montreal, Canada</p>
+              <p class="font-semibold pb-4">
+                Master's in Mechanical Engineering
+              </p>
+            </div>
+            <!--  -->
             <div class="border-l-4 pl-5 pb-4 text-justify break-all">
               <p class="text-gray-400 text-sm mb-1.5">Yerevan, Armenia</p>
               <p class="font-semibold">
