@@ -1,7 +1,43 @@
 <template>
   <div class="flex justify-center my-auto mx-3">
     <div class="flex-flex-col align-middle justify-center flex-grow">
-      <!--  Education  -->
+      <!--  Experience  -->
+      <div class="mt-3 md:mt-10">
+        <p ref="topic2" class="font-bold text-gray-700 font-sans">
+          <font-awesome-icon icon="briefcase"/>
+          Experience
+        </p>
+        <div ref="body2" class="ml-2 md:ml-9">
+          <div class="flex flex-row flex-wrap justify-between">
+            <p class="text-green-900 font-bold">
+              <font-awesome-icon class="text-xs" icon="dot-circle"/>
+              Freelance
+            </p>
+            <p class="text-green-900 font-bold">2021</p>
+          </div>
+          <div class="border-l-4 pl-5 pb-4 text-justify break-all">
+            <p class="text-gray-400 text-sm mb-1.5">Online</p>
+            <p class="">Learning F# and functional programming principals</p>
+            <p class="">Implementing back-end API using .Net and F#</p>
+          </div>
+          <div class="flex flex-row flex-wrap justify-between">
+            <p class="text-green-900 font-bold">
+              <font-awesome-icon class="text-xs" icon="dot-circle"/>
+              AUA
+            </p>
+            <p class="text-green-900 font-bold">2020</p>
+          </div>
+          <div class="pl-5 pb-4 text-justify break-all">
+            <p class="text-gray-400 text-sm mb-1.5">Yerevan, Armenia</p>
+            <p class="font-semibold">Graduate School Internship Project </p>
+            <ul class="list-inside list-disc">
+              <li>Used Python, TKinter to create a download-manager with chunking support and GUI S3 browser</li>
+              <li>Used Node.js, Socket.IO, and React/Redux to create an online chat room with channel support</li>
+              <li>Used .NET Core to create a public traffic transportation monitoring with route suggestions</li>
+            </ul>
+          </div>
+        </div>
+         <!--  Education  -->
       <div>
         <p ref="topic1" class="font-bold text-gray-700 font-sans">
           <font-awesome-icon icon="graduation-cap"/>
@@ -55,42 +91,6 @@
 
         </div>
       </div>
-      <!--  Experience  -->
-      <div class="mt-3 md:mt-10">
-        <p ref="topic2" class="font-bold text-gray-700 font-sans">
-          <font-awesome-icon icon="briefcase"/>
-          Experience
-        </p>
-        <div ref="body2" class="ml-2 md:ml-9">
-          <div class="flex flex-row flex-wrap justify-between">
-            <p class="text-green-900 font-bold">
-              <font-awesome-icon class="text-xs" icon="dot-circle"/>
-              Freelance
-            </p>
-            <p class="text-green-900 font-bold">2021</p>
-          </div>
-          <div class="border-l-4 pl-5 pb-4 text-justify break-all">
-            <p class="text-gray-400 text-sm mb-1.5">Online</p>
-            <p class="">Learning F# and functional programming principals</p>
-            <p class="">Implementing back-end API using .Net and F#</p>
-          </div>
-          <div class="flex flex-row flex-wrap justify-between">
-            <p class="text-green-900 font-bold">
-              <font-awesome-icon class="text-xs" icon="dot-circle"/>
-              AUA
-            </p>
-            <p class="text-green-900 font-bold">2020</p>
-          </div>
-          <div class="pl-5 pb-4 text-justify break-all">
-            <p class="text-gray-400 text-sm mb-1.5">Yerevan, Armenia</p>
-            <p class="font-semibold">Graduate School Internship Project </p>
-            <ul class="list-inside list-disc">
-              <li>Used Python, TKinter to create a download-manager with chunking support and GUI S3 browser</li>
-              <li>Used Node.js, Socket.IO, and React/Redux to create an online chat room with channel support</li>
-              <li>Used .NET Core to create a public traffic transportation monitoring with route suggestions</li>
-            </ul>
-          </div>
-        </div>
         <!--  Skills  -->
         <div id="skills" class="flex flex-row flex-wrap align-baseline">
           <!--  Technical Skills  -->
