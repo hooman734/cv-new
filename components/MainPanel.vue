@@ -2,6 +2,9 @@
   <div class="flex justify-center my-auto mx-3">
     <div class="flex-flex-col align-middle justify-center flex-grow">
       <!--  Experience  -->
+      <!-- Custom component -->
+      <experience topic="custom topic" subTopic="sub topic" date="2023" description1="description one" description2="description two" items="{'Iran', 'Canada', 'Armenia', 'USA'}"></experience>
+      <!-- /Custom component -->
       <div class="mt-3 md:mt-10">
         <p ref="topic2" class="font-bold text-gray-700 font-sans">
           <font-awesome-icon icon="briefcase"/>
@@ -315,12 +318,14 @@ import {
   faPenNib
 } from '@fortawesome/free-solid-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/vue-fontawesome'
+import Experience from './Experience.vue'
 
 library.add(faGraduationCap, faDotCircle, faBriefcase, faPuzzlePiece, faWrench, faPenNib)
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 export default {
+  components: { Experience },
   name: "MainPanel",
   mounted() {
     gsap.from(this.$refs.topic1, {duration: 2, fontSize: '4rem', x: '4rem', opacity: 0, ease: "back.out(1.7)", scrollTrigger: {
