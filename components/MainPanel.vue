@@ -8,7 +8,7 @@
           Experience
         </p>
         <!-- Custom component -->
-        <experience topic="custom topic1" subTopic="sub topic" date="2023" description1="description one" description2="description two" :items="['Iran', 'Canada', 'Armenia', 'USA']"></experience>
+        <experience topic="Parab" subTopic="Yerevan, Armenia" date="2015 - Present" description1="Mechanical Designer Engineer of Parab Consultation Company" description2="" :items="['Utilizing Mechanical Designing Demands of Clients and Also Mechanical Standards and Codes to Design Plans and Generate Records', 'Make Decisions in Place in Case of Encountering a Necessity of Instant Direction to the Firm Company in Line With the Core Designing Team']"></experience>
         <experience topic="custom topic2" subTopic="sub topic" date="2023" description1="description one" description2="description two" :items="['Iran', 'Canada', 'Armenia', 'USA']"></experience>
         <!-- /Custom component -->
         <div ref="body2" class="ml-2 md:ml-9">
