@@ -2,15 +2,15 @@
   <div class="flex justify-center my-auto mx-3">
     <div class="flex-flex-col align-middle justify-center flex-grow">
       <!--  Experience  -->
-      <!-- Custom component -->
-      <experience topic="custom topic1" subTopic="sub topic" date="2023" description1="description one" description2="description two" :items="['Iran', 'Canada', 'Armenia', 'USA']"></experience>
-      <experience topic="custom topic2" subTopic="sub topic" date="2023" description1="description one" description2="description two" :items="['Iran', 'Canada', 'Armenia', 'USA']"></experience>
-      <!-- /Custom component -->
       <div class="mt-3 md:mt-10">
         <p ref="topic2" class="font-bold text-gray-700 font-sans">
           <font-awesome-icon icon="briefcase"/>
           Experience
         </p>
+        <!-- Custom component -->
+        <experience topic="custom topic1" subTopic="sub topic" date="2023" description1="description one" description2="description two" :items="['Iran', 'Canada', 'Armenia', 'USA']"></experience>
+        <experience topic="custom topic2" subTopic="sub topic" date="2023" description1="description one" description2="description two" :items="['Iran', 'Canada', 'Armenia', 'USA']"></experience>
+        <!-- /Custom component -->
         <div ref="body2" class="ml-2 md:ml-9">
           <div class="flex flex-row flex-wrap justify-between">
             <p class="text-green-900 font-bold">
