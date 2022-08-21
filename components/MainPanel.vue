@@ -55,7 +55,7 @@
         ></experience>
         <!-- /Custom component -->
         <div ref="body2" class="ml-2 md:ml-9">
-          <div class="flex flex-row flex-wrap justify-between">
+          <!-- <div class="flex flex-row flex-wrap justify-between">
             <p class="text-green-900 font-bold">
               <font-awesome-icon class="text-xs" icon="dot-circle" />
               Freelance
@@ -66,7 +66,7 @@
             <p class="text-gray-400 text-sm mb-1.5">Online</p>
             <p class="">Learning F# and functional programming principals</p>
             <p class="">Implementing back-end API using .Net and F#</p>
-          </div>
+          </div> -->
           <div class="flex flex-row flex-wrap justify-between">
             <p class="text-green-900 font-bold">
               <font-awesome-icon class="text-xs" icon="dot-circle" />
