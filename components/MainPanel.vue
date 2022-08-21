@@ -55,24 +55,12 @@
         ></experience>
         <!-- /Custom component -->
         <div ref="body2" class="ml-2 md:ml-9">
-          <!-- <div class="flex flex-row flex-wrap justify-between">
-            <p class="text-green-900 font-bold">
-              <font-awesome-icon class="text-xs" icon="dot-circle" />
-              Freelance
-            </p>
-            <p class="text-green-900 font-bold">2021</p>
-          </div>
-          <div class="border-l-4 pl-5 pb-4 text-justify break-all">
-            <p class="text-gray-400 text-sm mb-1.5">Online</p>
-            <p class="">Learning F# and functional programming principals</p>
-            <p class="">Implementing back-end API using .Net and F#</p>
-          </div> -->
           <div class="flex flex-row flex-wrap justify-between">
             <p class="text-green-900 font-bold">
               <font-awesome-icon class="text-xs" icon="dot-circle" />
               AUA
             </p>
-            <p class="text-green-900 font-bold">2020</p>
+            <p class="text-green-900 font-bold">2020 - 2020</p>
           </div>
           <div class="pl-5 pb-4 text-justify break-all">
             <p class="text-gray-400 text-sm mb-1.5">Yerevan, Armenia</p>
@@ -106,12 +94,12 @@
                 <font-awesome-icon class="text-xs" icon="dot-circle" />
                 Concordia University
               </p>
-              <p class="text-green-900 font-bold">Current</p>
+              <p class="text-green-900 font-bold">Present</p>
             </div>
             <div class="border-l-4 pl-5">
               <p class="text-gray-400 text-sm mb-1.5">Montreal, Canada</p>
               <p class="font-semibold pb-4">
-                Master's in Mechanical Engineering
+                Master's in Mechanical Engineering Student
               </p>
             </div>
             <!--  -->
