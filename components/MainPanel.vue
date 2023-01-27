@@ -41,17 +41,6 @@
           ]"
         ></experience>
         <experience
-          topic="Rahsaz"
-          subTopic="Iran"
-          date="2005 - 2017"
-          description1="Mechanical Engineer of Rahsaz Firm Company"
-          description2=""
-          :items="[
-            'Utilized Provided Construction Documents, and Design Records to Direct the Workers of the Company to Meet the Projects\’ Inspectors\’ Requirements',
-            'Had Regular Meetings With the Projects’ Owners and their Designees, and also Engineering Inspection Team to Ensure Maintaining Project’s Workflow',
-          ]"
-        ></experience>
-        <experience
           topic="Manvelyan"
           subTopic="Armenia"
           date="2021 - 2022"
@@ -61,6 +50,17 @@
             'Utilizing TypeScript, Angular, Material UI, and Reactive Forms in the Front-End - subtrackr.no',
             'Utilizing Spring-Boot, Ngnix, PostgreSQL, and S3 for the Back-End RESTful API',
             'Utilizing Docker, docker-compose, and BitBucket Pipeline in the CI/CD',
+          ]"
+        ></experience>
+        <experience
+          topic="Rahsaz"
+          subTopic="Iran"
+          date="2005 - 2017"
+          description1="Mechanical Engineer of Rahsaz Firm Company"
+          description2=""
+          :items="[
+            'Utilized Provided Construction Documents, and Design Records to Direct the Workers of the Company to Meet the Projects\’ Inspectors\’ Requirements',
+            'Had Regular Meetings With the Projects’ Owners and their Designees, and also Engineering Inspection Team to Ensure Maintaining Project’s Workflow',
           ]"
         ></experience>
         <!-- /Custom component -->

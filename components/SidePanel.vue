@@ -35,12 +35,12 @@
               Email
             </p>
             <p class="font-light mb-4 font-mono">
-              <a target="_blank" href="mailto:hesamyan@gmail.com">hesamyan@gmail.com</a></p>
+              <a target="_blank" href="mailto:hesamyan@outlook.com">hesamyan@outlook.com</a></p>
             <p class="text-green-900 font-bold">
               <font-awesome-icon icon="phone-square-alt"/>
               Phone
             </p>
-            <p class="font-light mb-4 font-mono"><a target="_blank" href="tel:+37477281774">+374-77-281-774</a></p>
+            <p class="font-light mb-4 font-mono"><a target="_blank" href="tel:+37433281774">+374-33-281-774</a></p>
           </div>
           <div class="flex flex-col">
             <p class="font-bold text-gray-700 font-sans mt-3 md:mt-10">Links</p>
@@ -109,7 +109,8 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 export default {
   name: "SidePanel",
   mounted() {
-    gsap.to(this.$refs.info, {duration: 10, text: "I am a Web Developer with around 1-year of experience after graduation and 3 years of experience during my education at the American University of Armenia. Currently, I am seeking a Full-Stack Software Development position."})
+    gsap.to(this.$refs.info, {duration: 10, text: "I am a Software Developer with around 3 years of experience after graduation and 1 year of experience during my education at the American University of Armenia.\nPresently, I am working as an Intern Software Engineer at Talos|AGCS company and also as a Mechanical Design Engineer at Parab consulting company, both in remote mode.\n" +
+        "I am principally interested in learning new technologies, especially new trends, and these days I found Microsoft Blazor as an astonishing new technology that provides us the ability to develop both in front and back ends only in C#."})
   }
 }
 
