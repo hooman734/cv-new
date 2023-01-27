@@ -12,7 +12,7 @@ export default {
 .image {
   /*background-image: url("../assets/hooman.png");*/
   /*background-image: url("../assets/brad-pitt .jpg");*/
-  background-image: url("../assets/hmn2.jpg");
+  background-image: url("../assets/06.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
