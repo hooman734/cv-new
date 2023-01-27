@@ -9,10 +9,20 @@
         </p>
         <!-- Custom component -->
         <experience
+          topic="Talos | AGCS"
+          subTopic="USA - Armenia"
+          date="2022 - Present"
+          description1="Intern Software Engineer at Talos|AGCS"
+          description2=""
+          :items="[
+            'Working as a Software Engineer working on .Net Projects especially, Including Client-Side ones Using ASP.NET Core Blazor and Windows Presentation Foundation (WPF)',
+          ]"
+        ></experience>
+        <experience
           topic="Parab"
           subTopic="Iran - Armenia"
           date="2015 - Present"
-          description1="Mechanical Designer Engineer of Parab Consultation Company"
+          description1="Mechanical Designer Engineer at Parab Consultation Company"
           description2=""
           :items="[
             'Utilizing Mechanical Designing Demands of Clients and Also Mechanical Standards and Codes to Design Plans and Generate Records',
