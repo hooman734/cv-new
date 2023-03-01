@@ -59,6 +59,14 @@
             <a target="_blank" href="https://github.com/hooman734/">
               <p class="font-light mb-4 font-mono">github.com/hooman734</p>
             </a>
+            
+            <p class="text-green-900 font-bold">
+              <font-awesome-icon icon="link"/>
+              Gitlab
+            </p>
+            <a target="_blank" href="https://gitlab.com/hooman734">
+              <p class="font-light mb-4 font-mono">gitlab.com/hooman734</p>
+            </a>
 
             <p class="text-green-900 font-bold">
               <font-awesome-icon icon="link"/>
