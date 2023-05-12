@@ -9,24 +9,25 @@
         </p>
         <!-- Custom component -->
         <experience
+          topic="Parab"
+          subTopic="Iran - Armenia"
+          date="2015 - Present"
+          description1="Mechanical / Civil Engineer at Parab Consultation Company"
+          description2="Mechanical and Civil Supervisor and Designer"
+          :items="[
+            'Supervising Various Construction Projects in Armenia as the Representative of the Company',
+            'Utilizing Mechanical Designing Demands of Clients and Also Mechanical Standards and Codes to Design Plans and Generate Records',
+            'Make Decisions in Place in Case of Encountering a Necessity of Instant Direction to the Firm Company in Line With the Core Designing Team',
+          ]"
+        ></experience>
+        <experience
           topic="Talos | AGCS"
           subTopic="USA - Armenia"
-          date="2022 - Present"
+          date="2022 - 2023"
           description1="Intern Software Engineer at Talos|AGCS"
           description2=""
           :items="[
             'Working as a Software Engineer working on .Net Projects especially, Including Client-Side ones Using ASP.NET Core Blazor and Windows Presentation Foundation (WPF)',
-          ]"
-        ></experience>
-        <experience
-          topic="Parab"
-          subTopic="Iran - Armenia"
-          date="2015 - Present"
-          description1="Mechanical Designer Engineer at Parab Consultation Company"
-          description2=""
-          :items="[
-            'Utilizing Mechanical Designing Demands of Clients and Also Mechanical Standards and Codes to Design Plans and Generate Records',
-            'Make Decisions in Place in Case of Encountering a Necessity of Instant Direction to the Firm Company in Line With the Core Designing Team',
           ]"
         ></experience>
         <experience
