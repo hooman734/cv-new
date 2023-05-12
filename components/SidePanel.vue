@@ -117,8 +117,9 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 export default {
   name: "SidePanel",
   mounted() {
-    gsap.to(this.$refs.info, {duration: 10, text: "I am a Software Developer with around 3 years of experience after graduation and 1 year of experience during my education at the American University of Armenia.\nPresently, I am working as an Intern Software Engineer at Talos|AGCS company and also as a Mechanical Design Engineer at Parab consulting company, both in remote mode.\n" +
-        "I am principally interested in learning new technologies, especially new trends, and these days I found Microsoft Blazor as an astonishing new technology that provides us the ability to develop both in front and back ends only in C#."})
+    gsap.to(this.$refs.info, {duration: 10, text: "As a Mechanical / Civil Supervisor and Designer, I bring a unique blend of skills to my work, including experience managing multiple construction projects in Armenia, designing plans that meet client demands and industry standards, and providing quick direction to my team when needed.\n" +
+        "I received my Master's degree at the American University of Armenia in 2020 in Computer Science, which has helped me develop a strong foundation in software development and stay up-to-date with the latest industry trends.\n" +
+      "In addition to my profession as a representative of Parab consulting company, I am also an Intern Software Engineer at Talos|AGCS company, where I use my skills as a Software Developer to stay abreast of new technologies and trends. I am particularly interested in Microsoft Blazor, which provides the ability to develop in both front and back ends using only C#."})
   }
 }
 
