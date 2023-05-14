@@ -823,6 +823,8 @@
       </div>
     </div>
   </div>
+
+  <skill></skill>
 </template>
 
 <script>
@@ -841,6 +843,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import Experience from "./Experience.vue";
+import Skill from "~/components/Skill.vue";
 
 library.add(
   faGraduationCap,
@@ -854,7 +857,7 @@ library.add(
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
 export default {
-  components: { Experience },
+  components: {Skill, Experience },
   name: "MainPanel",
   mounted() {
     gsap.from(this.$refs.topic1, {
