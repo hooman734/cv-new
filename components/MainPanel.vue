@@ -825,6 +825,7 @@
   </div>
 
   <skill></skill>
+  <skill></skill>
 </template>
 
 <script>
