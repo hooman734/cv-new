@@ -1,11 +1,14 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
-  <h1>Hello World</h1>
+  <div>{{ topic }}</div>
+  <div v-for="item in items">{{ item }}</div>
 </template>
 
-<style scoped>
-
-</style>
+<script>
+export default {
+  name: "Skill",
+  props: {
+    topic: String,
+    items: Array,
+  },
+};
+</script>

@@ -824,8 +824,8 @@
     </div>
   </div>
 
-  <skill></skill>
-  <skill></skill>
+  <skill topic="Hello World" items="['X', 'Y', 'Z']"></skill>
+  <skill topic="Hello Hooman" items="['11', '22', '33']"></skill>
 </template>
 
 <script>
