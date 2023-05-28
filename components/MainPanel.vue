@@ -35,7 +35,7 @@
           topic="Talos | AGCS"
           subTopic="USA - Armenia"
           date="2022 - 2023"
-          description1="Intern Software Engineer at Talos|AGCS"
+          description1="Software Engineer at Talos|AGCS"
           description2=""
           :items="[
             'Working as a Software Engineer working on .Net Projects especially, Including Client-Side ones Using ASP.NET Core Blazor and Windows Presentation Foundation (WPF)',
