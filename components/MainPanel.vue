@@ -56,7 +56,7 @@
         <experience
           topic="Rahsaz"
           subTopic="Iran"
-          date="2005 - 2017"
+          date="2005 - 2014"
           description1="Mechanical Engineer of Rahsaz Firm Company"
           description2=""
           :items="[
