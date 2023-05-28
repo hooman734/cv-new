@@ -23,7 +23,7 @@
         <experience
           topic="Talos | AGCS"
           subTopic="USA - Armenia"
-          date="2022 - Present"
+          date="2022 - 2023"
           description1="Intern Software Engineer at Talos|AGCS"
           description2=""
           :items="[
