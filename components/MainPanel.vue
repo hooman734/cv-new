@@ -21,16 +21,6 @@
           ]"
         ></experience>
         <experience
-          topic="Talos | AGCS"
-          subTopic="USA - Armenia"
-          date="2022 - 2023"
-          description1="Intern Software Engineer at Talos|AGCS"
-          description2=""
-          :items="[
-            'Working as a Software Engineer working on .Net Projects especially, Including Client-Side ones Using ASP.NET Core Blazor and Windows Presentation Foundation (WPF)',
-          ]"
-        ></experience>
-        <experience
           topic="Urban Construction Organization"
           subTopic="Iran - Armenia"
           date="2009 - Present"
@@ -39,6 +29,16 @@
           :items="[
             'Utilizing The Official Mechanical Standards and Codes, Chapters 14, 16, and 17 as the Standardized Instructions of Mechanical Installments, and all Types of Approved Pipings',
             'Utilizing The Official Mechanical Standards and Codes, Chapters 19, 21, and 22 as the Standardized Instructions of Maintenace and Energy Efficiency Designs',
+          ]"
+        ></experience>
+        <experience
+          topic="Talos | AGCS"
+          subTopic="USA - Armenia"
+          date="2022 - 2023"
+          description1="Intern Software Engineer at Talos|AGCS"
+          description2=""
+          :items="[
+            'Working as a Software Engineer working on .Net Projects especially, Including Client-Side ones Using ASP.NET Core Blazor and Windows Presentation Foundation (WPF)',
           ]"
         ></experience>
         <experience
