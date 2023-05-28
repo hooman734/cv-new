@@ -44,7 +44,7 @@
         <experience
           topic="Manvelyan"
           subTopic="Armenia"
-          date="2021 - 2022"
+          date="2020 - 2022"
           description1="Full-Stack Software Developer at Manvelyan Consulting Company"
           description2=""
           :items="[
