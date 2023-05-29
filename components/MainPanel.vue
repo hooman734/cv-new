@@ -57,7 +57,7 @@
           topic="Rahsaz"
           subTopic="Iran"
           date="2005 - 2014"
-          description1="Mechanical Engineer of Rahsaz Firm Company"
+          description1="Mechanical and Civil Engineer of Rahsaz Firm Company"
           description2=""
           :items="[
             'Utilized Provided Construction Documents, and Design Records to Direct the Workers of the Company to Meet the Projects\’ Inspectors\’ Requirements',
